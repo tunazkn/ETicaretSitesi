@@ -1,0 +1,380 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.sosyalbutonlar {
+    text-align: center;
+    display: inline-block;
+    position: relative;
+}
+
+    .sosyalbutonlar a {
+        background: #a1a1a1;
+        text-decoration: none;
+        color: #FFF;
+        width: 35px;
+        height: 35px;
+        display: inline-block;
+        border-radius: 10px;
+        margin-left: 10px;
+        font-size: 20px;
+        overflow: hidden;
+        position: relative;
+        line-height: 33px;
+        text-align: center;
+    }
+
+    .sosyalbutonlar a {
+        transition: transform 0.4s linear 0s, border-top-left-radius 0.1s linear 0s, border-top-right-radius 0.1s linear 0.1s, border-bottom-right-radius 0.1s linear 0.2s, border-bottom-left-radius 0.1s linear 0.3s;
+    }
+
+    .sosyalbutonlar .facebook:hover {
+        background-color: #3b5998;
+        transform: rotate(360deg);
+        border-radius: 50%;
+    }
+
+    .sosyalbutonlar .twitter:hover {
+        background-color: #00aced;
+        transform: rotate(360deg);
+        border-radius: 50%;
+    }
+
+    .sosyalbutonlar .instagram:hover {
+        background-color: #bc2a8d;
+        transform: rotate(360deg);
+        border-radius: 50%;
+    }
+
+    .sosyalbutonlar .linkedin:hover {
+        background-color: #00aced;
+        transform: rotate(360deg);
+        border-radius: 50%;
+    }
+
+    .sosyalbutonlar .youtube:hover {
+        background-color: #bb0000;
+        transform: rotate(360deg);
+        border-radius: 50%;
+    }
+.shadow {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+ul.social-network {
+    list-style: none;
+    display: inline;
+    margin-left: 0 !important;
+    padding: 0;
+}
+
+    ul.social-network li {
+        display: inline;
+        margin: 0 5px;
+    }
+
+.social-network a.icoRss:hover {
+    background-color: #F56505;
+}
+
+.social-network a.icoFacebook:hover {
+    background-color: #3B5998;
+}
+
+.social-network a.icoTwitter:hover {
+    background-color: #33ccff;
+}
+
+.social-network a.icoGoogle:hover {
+    background-color: #BD3518;
+}
+
+.social-network a.icoVimeo:hover {
+    background-color: #0590B8;
+}
+
+.social-network a.icoLinkedin:hover {
+    background-color: #007bb7;
+}
+
+    .social-network a.icoRss:hover i, .social-network a.icoFacebook:hover i, .social-network a.icoTwitter:hover i,
+    .social-network a.icoGoogle:hover i, .social-network a.icoVimeo:hover i, .social-network a.icoLinkedin:hover i {
+        color: #fff;
+    }
+
+a.socialIcon:hover, .socialHoverClass {
+    color: #44BCDD;
+}
+
+.social-circle li a {
+    display: inline-block;
+    position: relative;
+    margin: 0 auto 0 auto;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    text-align: center;
+    width: 50px;
+    height: 50px;
+    font-size: 20px;
+    background-color: #D3D3D3;
+}
+
+.social-circle li i {
+    margin: 0;
+    line-height: 50px;
+    text-align: center;
+}
+
+.social-circle li a:hover i, .triggeredHover {
+    -moz-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -ms--transform: rotate(360deg);
+    transform: rotate(360deg);
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    -o-transition: all 0.2s;
+    -ms-transition: all 0.2s;
+    transition: all 0.2s;
+}
+
+.social-circle i {
+    color: #fff;
+    -webkit-transition: all 0.8s;
+    -moz-transition: all 0.8s;
+    -o-transition: all 0.8s;
+    -ms-transition: all 0.8s;
+    transition: all 0.8s;
+}
+
+
+
+
+
+
+
+
+.MainBox {
+    width: 1349px;
+    text-align: left;
+    background-color: white;
+    padding: 2px 2px 2px 2px;
+}
+
+.TopBox {
+    width: 1345px;
+    height: 90px;
+    background-color: #161616;
+    margin-bottom: 5px;
+}
+
+.TopDownBox {
+    width: 1345px;
+    height: 40px;
+    background-color: black;
+    margin-bottom: 5px;
+}
+
+.ContentBox {
+    width: 1345px;
+    min-height: 771px;
+    background-color: lightgray;
+    margin-right: 5px;
+}
+
+.BottomBox {
+    width: 1344px;
+    height: 20px;
+    background-color: darkslategray;
+    float: left;
+    margin-top: 5px;
+}
+
+.auto-style1 {
+    width: 1344px;
+    height: 90px;
+}
+
+.input-group-text2 {
+    display: -ms-flexbox;
+    display: flex;
+    padding: .375rem .75rem;
+    margin-bottom: 0;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    text-align: left;
+    white-space: nowrap;
+    background-color: #e9ecef;
+    border: 1px solid #ced4da;
+    border-radius: .25rem
+}
+
+.labeltxtdropSize {
+    font-size: 16px;
+    Width: 150px;
+    Height: 25px;
+}
+
+.labeldetailsize {
+    width: 215px;
+}
+
+.divSize {
+    font-size: 16px;
+}
+
+.btncerceve {
+    border: 1px solid #a1a1a1;
+    padding: 1px 1px 1px 1px;
+    border-radius: 7px;
+    margin: 1px;
+    float: left;
+}
+
+.Cercevelbltxt {
+    border: 1px solid #a1a1a1;
+    padding: 1px 1px 1px 1px;
+    Width: 150px;
+    Height: 30px;
+    border-radius: 7px;
+    margin: 1px;
+    float: left;
+}
+
+.cercevecevre {
+    border: 2px solid #a1a1a1;
+    padding: 5px 2px 5px 2px;
+    background: green;
+    width: 13%;
+    height: 500px;
+    border-radius: 20px;
+    color: white;
+    margin: 5px;
+    float: left;
+}
+
+.cerceve {
+    margin: 5px;
+    width: 2%;
+    border: 2px solid #a1a1a1;
+    padding: 4px;
+}
+/*burdan snrası src/css/style.css in içindekiler, arka planı azalan mavi renk ypaıyor.*/
+:root {
+    --input-padding-x: 1.5rem;
+    --input-padding-y: .75rem;
+}
+
+body {
+    background: #d2f8f8;
+    fallback for old browsers background: -webkit-linear-gradient(to right, #9ac0fa, #b9e6fb, #d2f8f8);
+    Chrome 10-25, Safari 5.1-6 background: linear-gradient(to right, #9ac0fa, #b9e6fb, #d2f8f8);
+    W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+
+}
+
+.bk {
+    background-color: transparent;
+    color: darkslategray;
+}
+
+    .bk:hover {
+        font-size: 16px;
+        text-decoration: none;
+        color: black;
+    }
+
+.bkk {
+    text-align:center;
+}
+
+.card-signin {
+    border: 0;
+    border-radius: 1rem;
+    box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.1);
+}
+
+    .card-signin .card-title {
+        margin-bottom: 2rem;
+        font-weight: 300;
+        font-size: 1.5rem;
+    }
+
+    .card-signin .card-body {
+        padding: 2rem;
+    }
+
+.form-signin {
+    width: 100%;
+}
+
+    .form-signin .btn {
+        font-size: 80%;
+        border-radius: 5rem;
+        letter-spacing: .1rem;
+        font-weight: bold;
+        padding: 1rem;
+        transition: all 0.2s;
+    }
+
+.form-label-group {
+    position: relative;
+    margin-bottom: 1rem;
+}
+
+    .form-label-group input {
+        border-radius: 2rem;
+    }
+
+    .form-label-group > input,
+    .form-label-group > label {
+        padding: var(--input-padding-y) var(--input-padding-x);
+    }
+
+    .form-label-group > label {
+        position: absolute;
+        top: 0;
+        left: 0;
+        display: block;
+        width: 100%;
+        margin-bottom: 0;
+        Override default `<label>` margin line-height: 1.5;
+        color: #495057;
+        border: 1px solid transparent;
+        border-radius: .25rem;
+        transition: all .1s ease-in-out;
+    }
+
+    .form-label-group input::-webkit-input-placeholder {
+        color: transparent;
+    }
+
+    .form-label-group input:-ms-input-placeholder {
+        color: transparent;
+    }
+
+    .form-label-group input::-ms-input-placeholder {
+        color: transparent;
+    }
+
+    .form-label-group input::-moz-placeholder {
+        color: transparent;
+    }
+
+    .form-label-group input::placeholder {
+        color: transparent;
+    }
+
+    .form-label-group input:not(:placeholder-shown) {
+        padding-top: calc(var(--input-padding-y) + var(--input-padding-y) * (2 / 3));
+        padding-bottom: calc(var(--input-padding-y) / 3);
+    }
+
+        .form-label-group input:not(:placeholder-shown) ~ label {
+            padding-top: calc(var(--input-padding-y) / 3);
+            padding-bottom: calc(var(--input-padding-y) / 3);
+            font-size: 12px;
+            color: #777;
+        }
