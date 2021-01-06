@@ -10,10 +10,14 @@
 # default for csharp files.
 # Note: This is only used by command line
 ###############################################################################
-#*.cs     diff=csharp
-#* linguist-vendored
-#*.js linguist-vendored=false
-
+*.cs     diff=csharp
+* linguist-vendored
+*.js linguist-vendored=false
+*.java linguist-detectable=false
+*.js linguist-detectable=false
+*.html linguist-detectable=false
+*.xml linguist-detectable=false
+*.css linguist-detectable=false
 ###############################################################################
 # Set the merge driver for project and solution files
 #
